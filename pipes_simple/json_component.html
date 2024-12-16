@@ -1,0 +1,12 @@
+<h1>User Details</h1>
+
+<!-- Here we display the whole object! -->
+<pre>{{ user | json }}</pre>
+
+
+<!-- Here are two examples of how to get an exact detail of the user using the JsonPipe! -->
+<h2>Formatted Address</h2>
+<p>{{ user.address | json }}</p>
+
+<h2>Created At</h2>
+<p>{{ user.createdAt | json }}</p>
